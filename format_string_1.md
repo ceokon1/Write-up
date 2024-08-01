@@ -1,7 +1,7 @@
 ## Description 
   Patrick and Sponge Bob were really happy with those orders you made for them, but now they're curious about the secret menu. Find it, and along the way, maybe you'll find something else of interest!    
   Download the binary here.    
-  Download the ![source](<https://artifacts.picoctf.net/c_rhea/13/vuln.c>) here.    
+  Download the ![source](<(https://artifacts.picoctf.net/c_mimas/43/format-string-1.c)>) here.    
   Connect with the challenge instance here: nc mimas.picoctf.net 61035
 
 ## Writeup
