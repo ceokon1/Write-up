@@ -16,7 +16,7 @@
   ![image](https://github.com/user-attachments/assets/859f2153-3d70-4073-873d-fb4a7542b820)  
   Go to <[decode.fr](https://www.dcode.fr/ascii-code)>, i try to decode this  
   ![image](https://github.com/user-attachments/assets/b95cb549-d38d-422d-8bb2-bddbcf865d25)  
-  I think i find the flag but word was reverse so i try to decode one by one hexadecimal and i have flag (0x7b4654436f636970,0x355f31346d316e34,0x3478345f33317937,0x65355f673431665f,0x7d346263623736)  
+  I think i find the flag but word was reverse so i try to decode one by one hexadecimal and i have flag (0x7b4654436f636970, 0x355f31346d316e34, 0x3478345f33317937, 0x65355f673431665f, 0x7d346263623736)  
   **Flag: picoCTF{4n1m41_57y13_4x4_f14g_5e67bcb4}**
 
 
