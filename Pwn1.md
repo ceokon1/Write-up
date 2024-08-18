@@ -4,8 +4,8 @@
 
 ## Writeup
   Download file pwn1.zip và sử dụng lệnh unzip pwn1.zip để giải nén ta, trong file giải nén, ta quan tâm tới 2 file *flag.txt* và *pwn1*  
-  Ta sử dụng lệnh `cat flag.txt`, ta được `PTITCTF{fake_flag}`
-  Đầu bài yêu cầu ta nhập tên để có **flag**, ta đoán đây là dạng bài *overflow* nên ta sử dụng ida và có đoạn mã giả sau
+  Ta sử dụng lệnh `cat flag.txt`, ta được `PTITCTF{fake_flag}`  
+  Đầu bài yêu cầu ta nhập tên để có **flag**, ta đoán đây là dạng bài *overflow* nên ta sử dụng ida và có đoạn mã giả sau  
   ![image](https://github.com/user-attachments/assets/b8232881-a997-47bc-bc80-b876116aa229)  
   ![image](https://github.com/user-attachments/assets/8c7d2db1-dcff-4456-a7d2-8fc06140dc74)  
   Ở đây, ta có thể thấy câu lệnh **read(0, &buffer, 0x200uLL)** cho phép ta nhập 512 ký tự. Như vậy ta chắc chắn đây là dạng bài *overflow*, nhiệm vụ của ta là thay đổi giá trị của a thành 0xdeadbeef  
