@@ -5,10 +5,10 @@
 ## Writeup
   Download file pwn1.zip và sử dụng lệnh unzip pwn1.zip để giải nén ta, trong file giải nén, ta quan tâm tới 2 file *flag.txt* và *pwn1*  
   Ta sử dụng lệnh `cat flag.txt`, ta được `PTITCTF{fake_flag}`  
-  Đầu bài yêu cầu ta nhập tên để có **flag**, ta đoán đây là dạng bài *overflow* nên ta sử dụng ida và có đoạn mã giả sau  
+  Đầu bài yêu cầu ta nhập tên để có **flag**, ta đoán đây là dạng bài **ret2win** nên ta sử dụng ida và có đoạn mã giả sau  
   ![image](https://github.com/user-attachments/assets/b8232881-a997-47bc-bc80-b876116aa229)  
   ![image](https://github.com/user-attachments/assets/8c7d2db1-dcff-4456-a7d2-8fc06140dc74)  
-  Ở đây, ta có thể thấy câu lệnh **read(0, &buffer, 0x200uLL)** cho phép ta nhập 512 ký tự. Như vậy ta chắc chắn đây là dạng bài *overflow*, nhiệm vụ của ta là thay đổi giá trị của a thành 0xdeadbeef  
+  Ở đây, ta có thể thấy câu lệnh **read(0, &buffer, 0x200uLL)** cho phép ta nhập 512 ký tự. Như vậy ta chắc chắn đây là dạng bài **ret2win**, nhiệm vụ của ta là thay đổi giá trị của a thành `0xdeadbeef`  
   Dùng ida, ta biết được số ký tự tối đa của buffer (136 ký tự), a (8 ký tự).
   ![image](https://github.com/user-attachments/assets/9681f570-332d-4797-a0e9-90aad14143de)  
   ![image](https://github.com/user-attachments/assets/26c15ce6-f0ea-46d7-a24f-9b931599e18f)
