@@ -1,7 +1,7 @@
 ## Description
   Can you use your knowledge of format strings to make the customers happy?  
   Download the binary here.  
-  Download the source here.
+  Download the source here.  
   Connect with the challenge instance here:
   nc mimas.picoctf.net 59150
   
